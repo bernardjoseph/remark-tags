@@ -1,0 +1,11 @@
+[
+  {"name": "Null", "kind": "a", "line": 1, "column": 1},
+  {"name": "1", "kind": "b", "line": 1, "column": 1},
+  {"name": "2.0", "kind": "c", "line": 1, "column": 1},
+  {"name": "3.0", "kind": "c", "line": 1, "column": 1},
+  {"name": "3.5", "kind": "c", "line": 1, "column": 1},
+  {"name": ".nan", "kind": "c", "line": 1, "column": 1},
+  {"name": ".inf", "kind": "c", "line": 1, "column": 1},
+  {"name": "True", "kind": "d", "line": 1, "column": 1},
+  {"name": "False", "kind": "d", "line": 1, "column": 1}
+]

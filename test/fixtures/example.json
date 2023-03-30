@@ -1,0 +1,13 @@
+[
+  { "name": "An Example document", "kind": "title", "line": 1, "column": 1 },
+  { "name": "N. N.", "kind": "author", "line": 1, "column": 1 },
+  { "name": "2021-10-01", "kind": "date", "line": 1, "column": 1 },
+  { "name": "Markdown", "kind": "keyword", "line": 1, "column": 1 },
+  { "name": "Tags", "kind": "keyword", "line": 1, "column": 1 },
+  { "name": "doe1999", "kind": "nocite", "line": 1, "column": 1 },
+  { "name": "smith2004", "kind": "nocite", "line": 1, "column": 1 },
+  { "name": "Target", "kind": "link", "line": 12, "column": 5 },
+  { "name": "Another target", "kind": "link", "line": 12, "column": 42 },
+  { "name": "wadler1989", "kind": "cite", "line": 13, "column": 6 },
+  { "name": "hughes1990", "kind": "cite", "line": 13, "column": 34 }
+]

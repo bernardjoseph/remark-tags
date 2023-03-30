@@ -1,0 +1,19 @@
+{
+  "plugins": {
+    "remark-tags": {
+      "kinds": {
+        "yaml": {
+          "title": {"kind": "title"},
+          "author": {"kind": "author"},
+          "date": {"kind": "date"},
+          "keywords": {"kind": "keyword"},
+          "nocite": {"kind": "nocite", "nocite": true}
+        },
+        "textDirective": {
+          "link": {"kind": "link", "ref": "ref"}
+        },
+        "citekeyId": {"kind": "cite"}
+      }
+    }
+  }
+}

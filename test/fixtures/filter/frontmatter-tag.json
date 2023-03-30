@@ -1,0 +1,5 @@
+[
+  {"name": "value a", "kind": "a", "line": 1, "column": 1},
+  {"name": "value b1", "kind": "b", "line": 1, "column": 1},
+  {"name": "value b2", "kind": "b", "line": 1, "column": 1}
+]

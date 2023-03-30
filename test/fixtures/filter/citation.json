@@ -1,0 +1,8 @@
+[
+  {"name": "müller1", "kind": "cite", "line": 3, "column": 32},
+  {"name": "müller2", "kind": "cite", "line": 5, "column": 27},
+  {"name": "müller3,", "kind": "cite", "line": 5, "column": 48},
+  {"name": "müller4", "kind": "cite", "line": 7, "column": 23},
+  {"name": "müller5", "kind": "cite", "line": 7, "column": 38},
+  {"name": "doe99", "kind": "cite", "line": 11, "column": 7}
+]

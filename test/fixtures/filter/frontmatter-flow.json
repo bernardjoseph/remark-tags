@@ -1,0 +1,8 @@
+[
+  {"name": "value a", "kind": "a", "line": 1, "column": 1},
+  {"name": "value b", "kind": "b", "line": 1, "column": 1},
+  {"name": "value c1", "kind": "c", "line": 1, "column": 1},
+  {"name": "value c2", "kind": "c", "line": 1, "column": 1},
+  {"name": "value d1", "kind": "d", "line": 1, "column": 1},
+  {"name": "value d2", "kind": "d", "line": 1, "column": 1}
+]

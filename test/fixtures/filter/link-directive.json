@@ -1,0 +1,6 @@
+[
+  {"name": "Target 1", "kind": "link", "line": 3, "column": 33},
+  {"name": "Target 2", "kind": "link", "line": 5, "column": 36},
+  {"name": "Target 3", "kind": "link", "line": 7, "column": 22},
+  {"name": "target_4", "kind": "link", "line": 7, "column": 44}
+]

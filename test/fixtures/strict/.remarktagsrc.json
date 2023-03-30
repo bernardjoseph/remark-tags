@@ -1,0 +1,16 @@
+{
+  "plugins": {
+    "remark-citekey": {
+      "strict": true
+    },
+    "remark-tags": {
+      "kinds": {
+        "yaml": {
+          "nocite": {"kind": "nocite", "nocite": true}
+        },
+        "citekeyId": {"kind": "cite"}
+      },
+      "strict": true
+    }
+  }
+}

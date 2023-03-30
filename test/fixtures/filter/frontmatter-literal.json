@@ -1,0 +1,10 @@
+[
+  {"name": "&value\na", "kind": "a", "line": 1, "column": 1},
+  {"name": "*value\nb\n", "kind": "b", "line": 1, "column": 1},
+  {"name": "#value\nc\n\n", "kind": "c", "line": 1, "column": 1},
+  {"name": "@value\nd\n\n", "kind": "d", "line": 1, "column": 1},
+  {"name": "&value\ne1", "kind": "e", "line": 1, "column": 1},
+  {"name": "*value\ne2\n", "kind": "e", "line": 1, "column": 1},
+  {"name": "#value\ne3\n\n", "kind": "e", "line": 1, "column": 1},
+  {"name": "müller", "kind": "nocite", "line": 1, "column": 1}
+]

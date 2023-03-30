@@ -1,0 +1,87 @@
+{
+  "name": "@bernardjoseph/remark-tags",
+  "version": "0.1.0",
+  "description": "remark plugin to generate tags for Markdown documents",
+  "license": "MIT",
+  "keywords": [
+    "tags",
+    "markdown",
+    "remark",
+    "unified"
+  ],
+  "repository": "https://github.com/bernardjoseph/remark-tags",
+  "author": "Bernd Rellermeyer",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "bin/",
+    "lib/",
+    "index.d.ts",
+    "index.js"
+  ],
+  "bin": {
+    "remark-tags": "bin/cli.js",
+    "remark-tags-filter": "bin/filter.js"
+  },
+  "dependencies": {
+    "@bernardjoseph/remark-citekey": "^0.1.0",
+    "js-yaml": "^4.1.0",
+    "line-by-line": "^0.1.6",
+    "mdast-util-directive": "^2.2.4",
+    "remark-directive": "^2.0.1",
+    "remark-frontmatter": "^4.0.1",
+    "remark-parse": "^10.0.1",
+    "to-vfile": "^7.2.4",
+    "unified": "^10.1.2",
+    "unified-args": "^10.0.0",
+    "unified-engine": "^10.1.0",
+    "unist-util-visit": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/line-by-line": "^0.1.6",
+    "@types/tape": "^4.13.2",
+    "c8": "^7.13.0",
+    "child_process": "^1.0.2",
+    "execa": "^7.1.0",
+    "prettier": "^2.8.4",
+    "remark": "^14.0.2",
+    "remark-cli": "^11.0.0",
+    "remark-preset-wooorm": "^9.1.0",
+    "rimraf": "^4.4.0",
+    "strip-ansi": "^7.0.1",
+    "tape": "^5.6.3",
+    "type-coverage": "^2.24.1",
+    "typescript": "^4.9.5",
+    "xo": "^0.53.1"
+  },
+  "scripts": {
+    "build": "rimraf --glob \"lib/**/*.d.ts\" \"test/**/*.d.ts\" \"*.d.ts\" && tsc && type-coverage",
+    "format": "remark . -qfo --ignore-pattern test/ && prettier . -w --loglevel warn && xo --fix",
+    "test-api": "node --conditions development test/index.js",
+    "test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov npm run test-api",
+    "test": "npm run build && npm run format && npm run test-coverage"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "semi": false,
+    "trailingComma": "none"
+  },
+  "xo": {
+    "prettier": true
+  },
+  "remarkConfig": {
+    "plugins": [
+      "remark-preset-wooorm"
+    ]
+  },
+  "typeCoverage": {
+    "atLeast": 100,
+    "detail": true,
+    "strict": true,
+    "ignoreCatch": true
+  }
+}
